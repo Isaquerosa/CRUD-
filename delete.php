@@ -6,7 +6,7 @@ $con = conexao();
 
 $sql = "DELETE FROM pessoas WHERE id = :id";
 
-$id = "4";
+$id = "6";
 
 $stmt = $con -> prepare($sql);
 $stmt -> bindParam(":id", $id);
