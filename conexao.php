@@ -1,10 +1,10 @@
 <?php
-
 /**
  * 
  * @return \PDO  
 */
 
+// Conexão com DB
 
 function conexao(){
   try {
