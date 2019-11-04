@@ -4,6 +4,8 @@ include "./conexao.php";
 
 $con = conexao();
 
+// Fazer alterações nos dados
+
 $sql = "UPDATE pessoas SET nome = :nome, email = :email, cidade = :cidade, uf = :uf WHERE id = :id";
 
 $nome = "Isaque";
@@ -24,7 +26,4 @@ if ($stmt -> execute()){
 }else {
     echo "Erro ao atualizar";
 };
-
-
-
 ?>
